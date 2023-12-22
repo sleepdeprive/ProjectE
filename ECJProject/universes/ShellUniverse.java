@@ -41,7 +41,7 @@ public class ShellUniverse implements Universe {
 
 		this.setXCenter(0);
 		this.setYCenter(0);
-		player1 = new PlayerSprite(0, -50);
+		player1 = new PlayerSprite(100, -50);
 		if(player1.getCharacter() == "Philip") {
 		    swordVisible = true;
 		}

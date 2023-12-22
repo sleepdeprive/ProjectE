@@ -252,9 +252,8 @@ public class AnimationFrame extends JFrame {
 					
 		if (false ) {
 			JOptionPane.showMessageDialog(this,
-					"Proceed to next level!");
 			//get the next level
-			universe = animation.getNextUniverse();
+			universe = animation.getNextUniverse());
 		}
 		else {
 			int choice = JOptionPane.showOptionDialog(this,

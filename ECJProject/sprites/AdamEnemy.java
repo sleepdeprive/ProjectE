@@ -148,12 +148,12 @@ public class AdamEnemy implements DisplayableSprite {
         }
         if (checkSight(universe.getSprites(), deltaX, deltaY) == 1){
             this.velocityX = 5;
-
+                                                                                    
         }else if(checkSight(universe.getSprites(), deltaX, deltaY) == 2){
-            this.velocityX = -10;
+            this.velocityX = -20;
 
         }else {
-            this.velocityX = -20;
+            this.velocityX = -30;
         }
 
         if(collidingBarrierX == false) {
